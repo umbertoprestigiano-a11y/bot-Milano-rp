@@ -7,7 +7,7 @@ import random
 # Configurazione Intents e Bot
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="/", intents=intents)
 
 # Banche Italiane Disponibili
 BANCHE_DISPONIBILI = [
